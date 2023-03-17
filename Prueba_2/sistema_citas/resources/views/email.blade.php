@@ -7,6 +7,8 @@
     <title>Cita</title>
 </head>
 <body>
-<h2>Su cita es el {{$request->input('cita')}}</h2>
+<h2>Su cita ha sido registrada </h2>
+<h2> Fecha y hora: {{$request->input('cita')}}</h2>
+<h3> Tipo de cita: {{$request->input('tipo_cita')}} </h2>
 </body>
 </html>
